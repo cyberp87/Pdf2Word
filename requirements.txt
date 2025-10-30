@@ -1,0 +1,5 @@
+pdf2docx
+PyPDF2
+python-docx
+aspose-words
+pywin32
