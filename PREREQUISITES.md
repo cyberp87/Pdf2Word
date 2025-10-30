@@ -52,10 +52,3 @@ python -c "import pywin32_postinstall; pywin32_postinstall.install()"
 
 - Error `pdf2docx` con `'Rect' object has no attribute 'get_area'`: usar `convertir_pdf_a_docx_v2.py` (texto) o `convertir_pdf_a_docx_v5.py` (Word) como alternativa.
 - PDF escaneado (sin texto extraíble): realiza OCR primero (por ejemplo, con Tesseract) para crear un PDF con texto o extraer imagen+texto.
-
-## Recomendaciones
-
-- Si el objetivo es máxima fidelidad (mismo aspecto), usa la versión basada en Word (`v5`).
-- Si buscas una solución multiplataforma sin Word, `pdf2docx` puede funcionar en muchos PDFs pero no en todos; `PyPDF2` + `python-docx` extrae texto que suele ser suficiente para documentos sencillos.
-
-Si quieres, puedo generar automáticamente un `requirements.txt` con las versiones exactas que aparecen en tu entorno. ¿Quieres que lo haga?
